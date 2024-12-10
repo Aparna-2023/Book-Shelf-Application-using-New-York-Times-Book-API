@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const getBooksList = () => {
-  const API_KEY = 'y4N39jh7a4UQ8KLu9aD0uH9aS9fReOJy'; 
+  const API_KEY = 'Your_API_Key'; 
   const url = 'https://api.nytimes.com/svc/books/v3/lists.json';
 
   return axios.get(url, {
